@@ -1,0 +1,44 @@
+public class Main {
+    public static void main(String[] args) {
+        int sum = 0;
+
+        for (int n = 1; n <= 100; n++) {
+            sum += n;
+        }
+
+        System.out.println("Sum of natural numbers from 1 to 100 using for loop: " + sum);
+    }
+}
+
+
+public class Main {
+    public static void main(String[] args) {
+        int n = 1;
+        int sum = 0;
+
+        while (n <= 100) {
+            sum += n;
+            n++;
+        }
+
+        System.out.println("Sum of natural numbers from 1 to 100 using while loop: " + sum);
+    }
+}
+
+
+
+public class Main {
+    public static void main(String[] args) {
+        int n = 1;
+        int sum = 0;
+
+        do {
+            sum += n;
+            n++;
+        } while (n <= 100);
+
+        System.out.println("Sum of natural numbers from 1 to 100 using do-while loop: " + sum);
+    }
+}
+
+
