@@ -1,0 +1,31 @@
+public class ComparisonOperators {
+    public static void main(String[] args) {
+        // Declare variables
+        int a = 5;
+        int b = 10;
+        
+        // Greater than (>)
+        System.out.println("Greater than (>):");
+        System.out.println("a > b: " + (a > b)); // false
+        
+        // Less than (<)
+        System.out.println("Less than (<):");
+        System.out.println("a < b: " + (a < b)); // true
+        
+        // Greater than or equal to (>=)
+        System.out.println("Greater than or equal to (>=):");
+        System.out.println("a >= b: " + (a >= b)); // false
+        
+        // Less than or equal to (<=)
+        System.out.println("Less than or equal to (<=):");
+        System.out.println("a <= b: " + (a <= b)); // true
+        
+        // Equal to (==)
+        System.out.println("Equal to (==):");
+        System.out.println("a == b: " + (a == b)); // false
+        
+        // Not equal to (!=)
+        System.out.println("Not equal to (!=):");
+        System.out.println("a != b: " + (a != b)); // true
+    }
+}
