@@ -1,0 +1,21 @@
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+
+        Scanner scanner = new Scanner(System.in);
+
+        System.out.print("Enter a three-digit number: ");
+        int number = scanner.nextInt();
+
+        scanner.close();
+
+        int digit1 = number % 10; // Extract the units digit
+        int digit2 = (number / 10) % 10; // Extract the tens digit
+        int digit3 = number / 100; // Extract the hundreds digit
+
+        int reverseNumber = digit1 * 100 + digit2 * 10 + digit3;
+
+        System.out.println("Reverse of the number: " + reverseNumber);
+    }
+}
